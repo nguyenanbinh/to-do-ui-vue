@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container py-2">
             <a href="#" class="navbar-brand">
-                <span>Toedoe</span>
+                <span>TodoVue</span>
                 <strong>List</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -12,7 +12,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="my-tasks.html" class="nav-link">Tasks</a>
+                        <a href="#" class="nav-link">Tasks</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Summary</a>
