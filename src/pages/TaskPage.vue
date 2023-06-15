@@ -21,7 +21,7 @@
           <!-- List completed task -->
           <Tasks
             :tasks="completedTasks"
-            :show="completedTasksIsVisible && showCompletedTasks"
+            v-show="completedTasksIsVisible && showCompletedTasks"
           />
         </div>
       </div>
