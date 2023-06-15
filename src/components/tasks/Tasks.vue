@@ -4,15 +4,14 @@
       <Task v-for="task in tasks" 
       :task="task" 
       :key="task.id" 
-      @updated="$emit('updated', $event)"
-      @completed="$emit('completed', $event)"
-      @deleted="$emit('deleted', $event)" />
+       />
     </ul>
   </div>
 </template>
 
 <script setup>
 import Task from './Task.vue';
+
 defineProps({
   tasks: Array,
   show: {
